@@ -1,0 +1,4 @@
+SIGNOFF_IMAGE: /cad/synopsys/star-rcxt/cur/bin/StarXtract
+MAPPING_FILE:  ../library/tluplus/tluplus.map
+CORNER_GRD_FILE: ../scripts/starrc_corner_grd.txt
+

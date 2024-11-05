@@ -1,0 +1,36 @@
+remove_antenna_rules 
+define_antenna_rule -mode 2 -diode_mode 4 -metal_ratio 0 -cut_ratio 0
+define_antenna_rule -mode 1 -diode_mode 4 -metal_ratio 0 -cut_ratio 0
+
+define_antenna_layer_rule -mode 2 -layer "metal1"  -ratio 5000  -diode_ratio {0 0  456  43000}
+define_antenna_layer_rule -mode 2 -layer "metal2"  -ratio 5000  -diode_ratio {0 0  456  43000}
+define_antenna_layer_rule -mode 2 -layer "metal3"  -ratio 5000  -diode_ratio {0 0  456  43000}
+define_antenna_layer_rule -mode 2 -layer "metal4"  -ratio 5000  -diode_ratio {0 0  456  43000}
+define_antenna_layer_rule -mode 2 -layer "metal5"  -ratio 5000  -diode_ratio {0 0  456  43000}
+define_antenna_layer_rule -mode 2 -layer "metal6"  -ratio 5000  -diode_ratio {0 0  456  43000}
+define_antenna_layer_rule -mode 2 -layer "metal7"  -ratio 5000  -diode_ratio {0 0  456  43000}
+define_antenna_layer_rule -mode 2 -layer "metal8"  -ratio 5000  -diode_ratio {0 0  456  43000}
+define_antenna_layer_rule -mode 2 -layer "metal9"  -ratio 5000  -diode_ratio {0 0 8000  50000}
+define_antenna_layer_rule -mode 2 -layer "metal10"  -ratio 5000  -diode_ratio {0 0 8000  50000}
+
+
+
+define_antenna_layer_rule -mode 1 -layer "via1"  -ratio 20  -diode_ratio {0 0 210  20}
+define_antenna_layer_rule -mode 1 -layer "via2"  -ratio 20  -diode_ratio {0 0 210  20}
+define_antenna_layer_rule -mode 1 -layer "via3"  -ratio 20  -diode_ratio {0 0 210  20}
+define_antenna_layer_rule -mode 1 -layer "via4"  -ratio 20  -diode_ratio {0 0 210  20}
+define_antenna_layer_rule -mode 1 -layer "via5"  -ratio 20  -diode_ratio {0 0 210  20}
+define_antenna_layer_rule -mode 1 -layer "via6"  -ratio 20  -diode_ratio {0 0 210  20}
+define_antenna_layer_rule -mode 1 -layer "via7"  -ratio 20  -diode_ratio {0 0 210  20}
+define_antenna_layer_rule -mode 1 -layer "via8"  -ratio 20  -diode_ratio {0 0 210  20}
+
+define_antenna_layer_rule -mode 2 -layer "via1"  -ratio 900  -diode_ratio {0 0 210  900}
+define_antenna_layer_rule -mode 2 -layer "via2"  -ratio 900  -diode_ratio {0 0 210  900}
+define_antenna_layer_rule -mode 2 -layer "via3"  -ratio 900  -diode_ratio {0 0 210  900}
+define_antenna_layer_rule -mode 2 -layer "via4"  -ratio 900  -diode_ratio {0 0 210  900}
+define_antenna_layer_rule -mode 2 -layer "via5"  -ratio 900  -diode_ratio {0 0 210  900}
+define_antenna_layer_rule -mode 2 -layer "via6"  -ratio 900  -diode_ratio {0 0 210  900}
+define_antenna_layer_rule -mode 2 -layer "via7"  -ratio 900  -diode_ratio {0 0 210  900}
+define_antenna_layer_rule -mode 2 -layer "via8"  -ratio 900  -diode_ratio {0 0 210  900}
+define_antenna_layer_rule -mode 2 -layer "via9"  -ratio 900  -diode_ratio {0 0 210  900}
+
